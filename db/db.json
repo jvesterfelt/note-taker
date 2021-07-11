@@ -1,6 +1,11 @@
-[
+[{
+        "title": "Test Title",
+        "text": "Test text",
+        "id": "uniqueId"
+    },
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title": "My Note",
+        "text": "This is to prove that the api is working!",
+        "id": "thisIsTheId"
     }
 ]
