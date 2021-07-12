@@ -1,7 +1,8 @@
 const fs = require('fs');
 const router = require('express').Router();
 const path = require('path');
-const notes = require('../../db/db.json');
+const { notes } = require('../../db/db.json');
+const uniqid = require('uniqid');
 
 function createNewNote(body, notes) {
     console.log('createNewNote', body, notes);
@@ -15,17 +16,15 @@ function createNewNote(body, notes) {
 }
 
 router.get('/notes', (req, res) => {
-    console.log('notes:', notes);
     res.json(notes);
 });
 
 router.post('/notes', (req, res) => {
-    req.body.id = notes.length.toString();
+    console.log('notes', notes);
+    req.body.id = uniqid();
 
     const newNote = createNewNote(req.body, notes);
     res.json(newNote);
-
-    console.log('newNote', newNote);
 });
 
 // router.delete('/notes/:id', (req, res) => {

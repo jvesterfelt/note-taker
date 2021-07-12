@@ -1,13 +1,7 @@
 {
     "notes": [{
-            "title": "Test Title",
-            "text": "Test text",
-            "id": "0"
-        },
-        {
-            "title": "My Note",
-            "text": "This is to prove that the api is working!",
-            "id": "1"
-        }
-    ]
+        "title": "Test Title",
+        "text": "Test text",
+        "id": "6xtnz6m70kqzvwobf"
+    }]
 }
