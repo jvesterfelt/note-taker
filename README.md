@@ -18,12 +18,7 @@ Simple app using express.js and deployed to heroku. This app is a note-taking ap
 This app is a challenge assignment for a course and usage is limited.
     
 #### Usage Screenshots:
-![Prompt Questions](./assets/images/prompt.jpg)
-    
-#### Walkthrough video: 
-![Walkthrough Video](./assets/videos/readme-generator-demo.webm)
-    
-
+![image](https://user-images.githubusercontent.com/81572838/125217298-8845d780-e27d-11eb-983f-f3a56f00ab34.png)
     
 ## Contributing
 Before contributing to this project please review the Contributor Covenant Code of Conduct:
